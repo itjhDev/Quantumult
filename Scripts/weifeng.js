@@ -19,56 +19,9 @@
 hostname=api.wfdata.club
 
 ***********************************/
+ 
 
-const $ = new Env("威锋");
-
-wf();
-
-function wf() {
-  var body = $response.body;
-  // console.log(body);
-  //$.msg($.name, "进入我的页面", "开始优化");
-  console.log("开始优化")
-  var obj = $.toObj(body);
-
-  const url = $request.url;
-
-  //$.msg($.name, "请求URL", url);
-
-  // 去掉我的页面的广告
-  if ($request.url.indexOf("yesfeng/infoCenterAd") != -1) {
-    // {"status":{"code":0,"message":"success","time":"2023-01-08 11:41:30","accessTokenState":"keep"},"data":{"banners":{"data":[{"id":9,"type":"banners","name":"爱思","title":"NIKE","image":"https://att.fengimg.com/2022/08/05/175100wrwz7m6sbu735qmp.jpeg?imageMogr2/thumbnail/960x/format/jpg/interlace/0/quality/100","method":"appBrowser","protocolId":6,"jumpDestination":"https://static.i5.cn/hd/2022b2b/index.html?b2bCode=8N9YOL#/index","protocol":"url","seq":3,"createTime":"2021-10-15 01:52:59","updateTime":"2022-08-05 17:51:01","description":""}]}}}
-
-    obj.data.banners.data = {};
-
-    //$.msg($.name, "去掉我的页面banner", "成功");
-    console.log("去掉我的页面banner")
-
-
-  } 
-   // 个人信息
-  if ($request.url.indexOf("user/homePageInfo") != -1) {
-
-    // obj.data.userBaseInfo.userName = "测试修改1";
-    obj.data.userBaseInfo.vipExpiryDate = "2099-12-12 12:12:12";
-    obj.data.userBaseInfo.isVip = "true";
-    obj.data.userBaseInfo.level = 30;
-    //$.msg($.name, "修改会员信息", "成功");
-    console.log("修改会员信息")
-
-  }
-
-  // 广告列表
-  if ($request.url.indexOf("yesfeng/yesList") != -1) {
-    obj.data.dataList = [];
-    //$.msg($.name, "去掉广告列表", "成功");
-    console.log("去掉广告列表")
-  }
-  
-  // console.log(JSON.stringify(obj));
-  $.done(JSON.stringify(obj));
-  
-}
+var _0xod9='jsjiami.com.v6',_0xod9_=['_0xod9'],_0x4106=[_0xod9,'C2NaAcKY','bMO6dQ==','5L6l5pWV5L6I5ZOS5L+45oKx','w6IUwqDDk8Ox','wqREIA==','w5g8w7PCv8KDwp3Cug==','DiHCkcKqVWJqSEnDsGHCmiTDkCY=','A2dYBcK4ZlVS','CmR3','wpBewr58w4EWesOFwoU=','FcO9w5suwojCq8KSd2XClsOic8KrakFSG8Kiw6pP','5Y6f5o6f5oq955iz6aOd6Z2awrAXwpgDwqUF','RXTDm8O1HT0/SgHCpzLDp3/CmWN+wp/DgMO1','w6rDmR1H','w7nDhH4=','w6zCqA18w4s=','Wg1MwrN2','S0rDmQ==','woDDisOJw5El','dcOnfg==','WsOGERIs','w4jCohlAw6B3woA=','w6vCpm9qAg==','wqXCrsK5','wqp+LUItEMO4','dzJ5w7vDrcKzBMKOc1VeMX7CvcKOdCQ=','CMO5w5wp','dChsw4zCusKrAsKRb0FeIn4=','wpxGwpPDqW8=','wpjCgMKow5c=','WxFmwqNew4rCgHZTw5jCrUo=','wqXChHHCulU=','jsjiahmVi.ncYoBm.QgNlTMZevh6Gy=='];if(function(_0x1fbb2c,_0x32c6d2,_0x512377){function _0x4ce512(_0x474c48,_0x42270f,_0x4e3970,_0x17e11f,_0x5646db,_0x4f1a20){_0x42270f=_0x42270f>>0x8,_0x5646db='po';var _0x53b51f='shift',_0x1d5d09='push',_0x4f1a20='0.i8731ysooq';if(_0x42270f<_0x474c48){while(--_0x474c48){_0x17e11f=_0x1fbb2c[_0x53b51f]();if(_0x42270f===_0x474c48&&_0x4f1a20==='0.i8731ysooq'&&_0x4f1a20['length']===0xc){_0x42270f=_0x17e11f,_0x4e3970=_0x1fbb2c[_0x5646db+'p']();}else if(_0x42270f&&_0x4e3970['replace'](/[hVnYBQgNlTMZehGy=]/g,'')===_0x42270f){_0x1fbb2c[_0x1d5d09](_0x17e11f);}}_0x1fbb2c[_0x1d5d09](_0x1fbb2c[_0x53b51f]());}return 0x11eafe;};return _0x4ce512(++_0x32c6d2,_0x512377)>>_0x32c6d2^_0x512377;}(_0x4106,0x16a,0x16a00),_0x4106){_0xod9_=_0x4106['length']^0x16a;};function _0x54bc(_0x269bbc,_0x49cf37){_0x269bbc=~~'0x'['concat'](_0x269bbc['slice'](0x0));var _0x5af31e=_0x4106[_0x269bbc];if(_0x54bc['qLNNLb']===undefined){(function(){var _0xe4fc9b=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x22b1a0='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0xe4fc9b['atob']||(_0xe4fc9b['atob']=function(_0x8a71f2){var _0x498af0=String(_0x8a71f2)['replace'](/=+$/,'');for(var _0x35d649=0x0,_0x168fce,_0xf4911e,_0x4ed2c6=0x0,_0x4ac585='';_0xf4911e=_0x498af0['charAt'](_0x4ed2c6++);~_0xf4911e&&(_0x168fce=_0x35d649%0x4?_0x168fce*0x40+_0xf4911e:_0xf4911e,_0x35d649++%0x4)?_0x4ac585+=String['fromCharCode'](0xff&_0x168fce>>(-0x2*_0x35d649&0x6)):0x0){_0xf4911e=_0x22b1a0['indexOf'](_0xf4911e);}return _0x4ac585;});}());function _0x32b393(_0x4a2783,_0x49cf37){var _0x430f50=[],_0xa4ec16=0x0,_0x3b6918,_0x243b9b='',_0x32b6de='';_0x4a2783=atob(_0x4a2783);for(var _0x4f598b=0x0,_0x265195=_0x4a2783['length'];_0x4f598b<_0x265195;_0x4f598b++){_0x32b6de+='%'+('00'+_0x4a2783['charCodeAt'](_0x4f598b)['toString'](0x10))['slice'](-0x2);}_0x4a2783=decodeURIComponent(_0x32b6de);for(var _0xa68bd8=0x0;_0xa68bd8<0x100;_0xa68bd8++){_0x430f50[_0xa68bd8]=_0xa68bd8;}for(_0xa68bd8=0x0;_0xa68bd8<0x100;_0xa68bd8++){_0xa4ec16=(_0xa4ec16+_0x430f50[_0xa68bd8]+_0x49cf37['charCodeAt'](_0xa68bd8%_0x49cf37['length']))%0x100;_0x3b6918=_0x430f50[_0xa68bd8];_0x430f50[_0xa68bd8]=_0x430f50[_0xa4ec16];_0x430f50[_0xa4ec16]=_0x3b6918;}_0xa68bd8=0x0;_0xa4ec16=0x0;for(var _0x1b49e3=0x0;_0x1b49e3<_0x4a2783['length'];_0x1b49e3++){_0xa68bd8=(_0xa68bd8+0x1)%0x100;_0xa4ec16=(_0xa4ec16+_0x430f50[_0xa68bd8])%0x100;_0x3b6918=_0x430f50[_0xa68bd8];_0x430f50[_0xa68bd8]=_0x430f50[_0xa4ec16];_0x430f50[_0xa4ec16]=_0x3b6918;_0x243b9b+=String['fromCharCode'](_0x4a2783['charCodeAt'](_0x1b49e3)^_0x430f50[(_0x430f50[_0xa68bd8]+_0x430f50[_0xa4ec16])%0x100]);}return _0x243b9b;}_0x54bc['xWfhXF']=_0x32b393;_0x54bc['APtZiK']={};_0x54bc['qLNNLb']=!![];}var _0x596813=_0x54bc['APtZiK'][_0x269bbc];if(_0x596813===undefined){if(_0x54bc['CpckVb']===undefined){_0x54bc['CpckVb']=!![];}_0x5af31e=_0x54bc['xWfhXF'](_0x5af31e,_0x49cf37);_0x54bc['APtZiK'][_0x269bbc]=_0x5af31e;}else{_0x5af31e=_0x596813;}return _0x5af31e;};const $=new Env('威锋');wf();function wf(){var _0x1b043d={'FkzRN':'开始优化','iDKkx':function(_0x541ffe,_0xdbcdcd){return _0x541ffe!=_0xdbcdcd;},'vJQet':_0x54bc('0','p2@A'),'UCKnw':_0x54bc('1','hqWB'),'KmcXs':function(_0x14cd03,_0x446b08){return _0x14cd03!=_0x446b08;},'nroHY':_0x54bc('2','!A1H'),'hHsVa':_0x54bc('3','eTlW')};var _0x6f1457=$response['body'];console[_0x54bc('4','O$P^')](_0x1b043d[_0x54bc('5','izuF')]);var _0x17a514=$[_0x54bc('6','!yUE')](_0x6f1457);const _0x17f185=$request[_0x54bc('7','cAKQ')];if(_0x1b043d[_0x54bc('8','gkJ]')]($request[_0x54bc('9','tjSh')]['indexOf'](_0x1b043d[_0x54bc('a','uYL(')]),-0x1)){_0x17a514['data'][_0x54bc('b','izuF')]['data']={};console['log'](_0x1b043d['UCKnw']);}if(_0x1b043d[_0x54bc('c','QSAB')]($request[_0x54bc('d','NCJM')][_0x54bc('e','qmbM')](_0x54bc('f','biG%')),-0x1)){_0x17a514[_0x54bc('10','p2@A')]['userBaseInfo'][_0x54bc('11','biG%')]=_0x1b043d[_0x54bc('12','B8FV')];_0x17a514[_0x54bc('13','Mztv')][_0x54bc('14','!yUE')][_0x54bc('15','hlf(')]=_0x1b043d['hHsVa'];_0x17a514['data']['userBaseInfo'][_0x54bc('16','8lp4')]=0x1e;console[_0x54bc('17','tjSh')](_0x54bc('18','Z3fr'));}if(_0x1b043d[_0x54bc('19','X3Nh')]($request[_0x54bc('1a','PfDp')][_0x54bc('1b','J]dq')](_0x54bc('1c','!A1H')),-0x1)){_0x17a514['data'][_0x54bc('1d','8lp4')]=[];console[_0x54bc('1e','cJqL')]('去掉广告列表');}$['done'](JSON[_0x54bc('1f','DRYf')](_0x17a514));};_0xod9='jsjiami.com.v6';
 
 //这个通用的写法,用于圈x,loon,surge这三者的通用写法
 // form https://github.com/chavyleung/scripts/blob/master/Env.js
