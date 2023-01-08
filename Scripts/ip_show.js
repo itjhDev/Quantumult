@@ -199,7 +199,7 @@ emoji = City_ValidCheck(obj["country"]) == "澳门" ? "️🇲🇴️" : emoji;
 emoji = obj['country'] == "中華民國"? "️️🇼🇸":emoji;
 var title =  emoji + "『" +  City_ValidCheck(obj["country"]) + "』"; //+Area_check(obj['country']);
 // var subtitle = "💋 " +  obj["regionName"] + " ➠ " + obj["city"];
-var subtitle = "💋 " +  obj["isp"] + " ➠ " + obj["city"];
+var subtitle = "💋 " +  obj["isp"] + " ➠ " + obj["query"];
 var ip = obj["query"];
 var description =
   "服务商:" +
