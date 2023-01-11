@@ -197,7 +197,7 @@ var emoji = flags.get(obj["country"]) ? flags.get(obj["country"]) : "🏴‍☠�
 emoji = City_ValidCheck(obj["country"]) == "香港" ? "🇭🇰️" : emoji;
 emoji = City_ValidCheck(obj["country"]) == "澳门" ? "️🇲🇴️" : emoji;
 emoji = obj['country'] == "中華民國"? "️️🇼🇸":emoji;
-var title =  emoji + "『" +  City_ValidCheck(obj["country"]) + "』"; //+Area_check(obj['country']);
+var title =  emoji + "『" +  City_ValidCheck(obj["country"]) + " ➠ "+obj["city"]+"』"; //+Area_check(obj['country']);
 // var subtitle = "💋 " +  obj["regionName"] + " ➠ " + obj["city"];
 var subtitle = "💋 " +  obj["isp"] + " ➠ " + obj["query"];
 var ip = obj["query"];
