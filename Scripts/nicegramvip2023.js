@@ -25,6 +25,8 @@ console.log("Nicegram 开始优化")
 var obj = $.toObj(body);
 
 obj.premium = true;
+obj.restricted = [];
+
 console.log(JSON.stringify(obj))
 console.log("Nicegram 开始完成")
 
