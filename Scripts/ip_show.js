@@ -110,7 +110,7 @@ var flags = new Map([
   ["库克群岛", "🇨🇰"],
   ["智利", "🇨🇱"],
   ["喀麦隆", "🇨🇲"],
-  ["中国", "🇼🇸"],
+  ["中国", "🇹🇼"],
   ["哥伦比亚", "🇨🇴"],
   ["CP", "🇨🇵"],
   ["哥斯达黎加", "🇨🇷"],
@@ -176,7 +176,7 @@ var flags = new Map([
   ["汤加", "🇹🇴"],
   ["土耳其", "🇹🇷"],
   ["图瓦卢", "🇹🇻"],
-  ["台湾", "🇼🇸"],
+  ["台湾", "🇹🇼"],
   ["英国", "🇬🇧"],
   ["美属离岛", "🇺🇲"],
   ["美国", "🇺🇸"],
@@ -196,10 +196,10 @@ var obj = JSON.parse(body);
 var emoji = flags.get(obj["country"]) ? flags.get(obj["country"]) : "🏴‍☠️";
 emoji = City_ValidCheck(obj["country"]) == "香港" ? "🇭🇰️" : emoji;
 emoji = City_ValidCheck(obj["country"]) == "澳门" ? "️🇲🇴️" : emoji;
-emoji = obj['country'] == "中華民國"? "️️🇼🇸":emoji;
-var title =  emoji + "『" +  City_ValidCheck(obj["country"]) + " ➠ "+obj["city"]+"』"; //+Area_check(obj['country']);
+emoji = obj['country'] == "中華民國"? "️️🇹🇼":emoji;
+var title =  emoji + "『" +  City_ValidCheck(obj["country"]) + "』"; //+Area_check(obj['country']);
 // var subtitle = "💋 " +  obj["regionName"] + " ➠ " + obj["city"];
-var subtitle = emojis[getRandomInt(emojis.length)]+" " +  obj["isp"] + " ➠ " + obj["query"];
+var subtitle = "💋 " +  obj["isp"] + " ➠ " + obj["query"];
 var ip = obj["query"];
 var description =
   "服务商:" +
