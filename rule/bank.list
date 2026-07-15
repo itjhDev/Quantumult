@@ -1,0 +1,76 @@
+# 内容：银行分流
+
+# 中银香港
+HOST-SUFFIX,bank-of-china.com,bank
+HOST-SUFFIX,bankofchina.com,bank
+HOST-SUFFIX,boc.cn,bank
+HOST-SUFFIX,bocamchina.com,bank
+HOST-SUFFIX,bocaviation.com,bank
+HOST-SUFFIX,boccfc.cc,bank
+HOST-SUFFIX,boccfc.cn,bank
+HOST-SUFFIX,bocfullertonbank.com,bank
+HOST-SUFFIX,bocgi.com,bank
+HOST-SUFFIX,bocgins.com,bank
+HOST-SUFFIX,bochk.com,bank
+HOST-SUFFIX,bochkonline.com,bank
+HOST-SUFFIX,bocichina.cn,bank
+HOST-SUFFIX,bocichina.com,bank
+HOST-SUFFIX,bocichina.com.cn,bank
+HOST-SUFFIX,bocifunds.cn,bank
+HOST-SUFFIX,bocifunds.com,bank
+HOST-SUFFIX,bocifunds.com.cn,bank
+HOST-SUFFIX,bocigroup.com,bank
+HOST-SUFFIX,bocim.com,bank
+HOST-SUFFIX,bocservices.com.cn,bank
+HOST-SUFFIX,ftcwifi.com,bank
+
+# ===== HSBC Hong Kong App DIRECT =====
+host-suffix,hsbc.com,bank
+host-suffix,hsbc.com.cn,bank
+host-suffix,hsbc.com.hk,bank
+host-suffix,hsbc.com.sg,bank
+host-suffix,hsbcapi.com,bank
+host-suffix,hsbcdynamic.com,bank
+host-suffix,hsbcgroup.com,bank
+host-suffix,hsbcnet.com,bank
+host-suffix,hsbcnet.com.hk,bank
+host-suffix,myhsbc.com,bank
+host-suffix,mobile.hsbc,bank
+host-suffix,mobile.hsbc.com.hk,bank
+host-suffix,cms.hsbc.com,bank
+
+# 众安银行 (ZA Bank) 分流规则 - 建议直连
+HOST-SUFFIX, za.group, bank
+HOST-SUFFIX, zabank.com.hk, bank
+HOST-SUFFIX, za.com.hk, bank
+HOST-KEYWORD, zabank, bank
+
+# 汇立银行 (WeLab Bank) 分流规则 - 建议直连
+HOST-SUFFIX, welab.bank, bank
+HOST-SUFFIX, welab.co, bank
+HOST-SUFFIX, welab.net, bank
+HOST-KEYWORD, welab, bank
+
+# Wise (TransferWise) 分流规则 - 必须走固定代理
+HOST-SUFFIX, wise.com, bank
+HOST-SUFFIX, transferwise.com, bank
+HOST-KEYWORD, wise, bank
+
+# N26 Bank 分流规则 - 必须走固定欧洲代理
+HOST-SUFFIX, n26.com, bank
+HOST-SUFFIX, tech26.de, bank
+HOST-KEYWORD, n26, bank
+
+# iFAST Global Bank 分流规则 - 建议走固定代理
+HOST-SUFFIX, ifastgb.com, bank
+HOST-SUFFIX, ifastfinancial.com, bank
+HOST-KEYWORD, ifast, bank
+
+# Singapore Gulf Bank (SGB) 分流规则 - 建议固定代理
+HOST-SUFFIX, sgb.com, bank
+HOST-KEYWORD, sgbbank, bank
+
+# Starryblu 分流规则 - 必须走固定代理（推荐新加坡）
+HOST-SUFFIX, starryblu.com, bank
+HOST-KEYWORD, starryblu, bank
+
