@@ -1,0 +1,8 @@
+# 嘉信证券
+
+host-suffix, schwab.com, schwab
+host-suffix, schwab.co.uk, schwab
+host-suffix, charlescharles.com, schwab
+host-keyword, schwab, schwab
+ip-cidr, 149.99.192.0/18, schwab
+ip-cidr, 204.13.128.0/17, schwab
