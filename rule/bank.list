@@ -45,6 +45,7 @@ HOST-SUFFIX, zabank.com.hk, bank
 HOST-SUFFIX, za.com.hk, bank
 HOST-SUFFIX, zainvest.gruop,bank
 HOST-SUFFIX, zaticdn.com, bank
+HOST-SUFFIX, zajourney.com, bank
 HOST-KEYWORD, zabank, bank
 
 # 汇立银行 (WeLab Bank) 分流规则 - 建议直连
@@ -61,6 +62,7 @@ HOST-KEYWORD, wise, bank
 # N26 Bank 分流规则 - 必须走固定欧洲代理
 HOST-SUFFIX, n26.com, bank
 HOST-SUFFIX, tech26.de, bank
+HOST-SUFFIX, number26.de, bank
 HOST-KEYWORD, n26, bank
 
 # iFAST Global Bank 分流规则 - 建议走固定代理
