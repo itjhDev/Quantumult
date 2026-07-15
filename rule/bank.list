@@ -43,6 +43,8 @@ host-suffix,cms.hsbc.com,bank
 HOST-SUFFIX, za.group, bank
 HOST-SUFFIX, zabank.com.hk, bank
 HOST-SUFFIX, za.com.hk, bank
+HOST-SUFFIX, zainvest.gruop,bank
+HOST-SUFFIX, zaticdn.com, bank
 HOST-KEYWORD, zabank, bank
 
 # 汇立银行 (WeLab Bank) 分流规则 - 建议直连
