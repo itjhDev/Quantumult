@@ -1,0 +1,11 @@
+# 内容：Firstrade 第一证券
+# Firstrade 第一证券分流规则
+host-keyword, firstrade, Firstrade
+host-suffix, firstrade.com, Firstrade
+
+# 美股电子文件与对账单系统（Apex清算及第三方）
+host-suffix, proxyvote.com, Firstrade
+host-suffix, icsdelivery.com, Firstrade
+host-suffix, investordelivery.com, Firstrade
+host-suffix, documentmailbox.com, Firstrade
+host-suffix, apexfintechdocuments.com, Firstrade
