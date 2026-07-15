@@ -50,6 +50,7 @@ HOST-KEYWORD, zabank, bank
 
 # 汇立银行 (WeLab Bank) 分流规则 - 建议直连
 HOST-SUFFIX, welab.bank, bank
+HOST-SUFFIX, welab.bank:8080, bank
 HOST-SUFFIX, welab.co, bank
 HOST-SUFFIX, welab.net, bank
 HOST-KEYWORD, welab, bank
