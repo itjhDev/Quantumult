@@ -1,0 +1,10 @@
+# ibrk盈透证券
+
+host-keyword, interactivebrokers, ibrk
+host-keyword, ibkr, ibrk
+host-keyword, ibllc, ibrk
+host-suffix, ibkr.com, ibrk
+host-suffix, ibkr.com.hk, ibrk
+host-suffix, ibkrcampus.com, ibrk
+host-suffix, interactivebrokers.com, ibrk
+host-suffix, interactivebrokers.com.hk, ibrk
