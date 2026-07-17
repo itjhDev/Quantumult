@@ -3,7 +3,8 @@
 # Monzo 银行核心域名分流
 HOST-SUFFIX, monzo.com, monzo
 HOST-SUFFIX, monzo.me, monzo
-
+HOST-SUFFIX, monzo.statuspage.io
+HOST-SUFFIX, monzo-alt.net
 # Monzo 关联的推送与支付服务
 HOST-SUFFIX, pusher.com, monzo
 HOST-SUFFIX, pusherapp.com, monzo
