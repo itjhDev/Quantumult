@@ -1,0 +1,9 @@
+# 英国银行 monzo 使用英国节点
+
+# Monzo 银行核心域名分流
+HOST-SUFFIX, monzo.com, monzo
+HOST-SUFFIX, monzo.me, monzo
+
+# Monzo 关联的推送与支付服务
+HOST-SUFFIX, pusher.com, monzo
+HOST-SUFFIX, pusherapp.com, monzo
